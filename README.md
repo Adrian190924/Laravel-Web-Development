@@ -1,3 +1,25 @@
+# Laravel Web Development
+Current Progress = AFL-1
+
+## Features
+- Product list with Bootstrap styling
+- Add, edit, and view product details
+- Blade components and templates
+- Laravel route groups and controller methods
+
+## Routes
+| Route              | Method | Description              |
+|-------------------|--------|--------------------------|
+| `/products`       | GET    | Show product list        |
+| `/products/create`| GET    | Show create form         |
+| `/products/store` | POST   | Handle form submission   |
+| `/products/edit/{id}` | GET | Show edit form           |
+| `/products/update/{id}` | POST | Update product info   |
+| `/products/show/{id}` | GET | Show product detail      |
+
+> Note: current version uses dummy data. No database  yet.
+
+# Laravel Readme
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
