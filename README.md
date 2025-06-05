@@ -1,11 +1,12 @@
 # Laravel Web Development
-Current Progress = AFL-1
+Current Progress = AFL-2
 
 ## Features
 - Product list with Bootstrap styling
 - Add, edit, and view product details
 - Blade components and templates
 - Laravel route groups and controller methods
+- Responsive design
 
 ## Routes
 | Route              | Method | Description              |
@@ -17,7 +18,20 @@ Current Progress = AFL-1
 | `/products/update/{id}` | POST | Update product info   |
 | `/products/show/{id}` | GET | Show product detail      |
 
-> Note: current version uses dummy data. No database  yet.
+## Database Features
+- Product Management (CRUD)
+  - Create new products
+  - View all products
+  - View individual product details
+  - Edit existing products
+  - Delete products
+- Category Integration
+- Search Functionality
+- Price Filtering (min/max).
+- Sorting Options:
+  - Name (A-Z/Z-A)
+  - Price (Low/High)
+  - Creation date (Newest/Oldest).
 
 # Laravel Readme
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
