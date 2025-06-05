@@ -15,4 +15,7 @@ Route::prefix('products')->name('products.')->controller(ProductController::clas
     Route::post('/store', 'store')->name('store');
     Route::post('/update/{id}', 'update')->name('update');
     Route::get('/show/{id}', 'show')->name('show');
+
+    //AFL-2
+    Route::delete('/destroy/{id}', 'destroy')->name('destroy');
 });
